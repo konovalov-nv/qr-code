@@ -1,0 +1,30 @@
+/* Navigation.module.css */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1.25rem 2rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.link {
+  text-decoration: none;
+  color: #6b7280;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.link:hover {
+  color: #1f2937;
+  background: #f3f4f6;
+}
+
+.active {
+  color: #2563eb;
+  background: #eff6ff;
+}
