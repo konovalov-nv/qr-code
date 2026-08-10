@@ -1,18 +1,34 @@
-# React + Vite
+# QR Code App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Веб-приложение для сканирования и генерации QR-кодов с сохранением истории операций.
 
-Currently, two official plugins are available:
+## Быстрый запуск
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Клонируйте репозиторий
+```bash
+git clone https://github.com/konovalov-nv/qr-code.git
+cd ./qr-code
+```
 
-## React Compiler
+### Установите зависимости
+```bash
+npm install
+```
+### Запустите проект
+```bash
+npm run start
+```
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Возможности
 
-Note: This will impact Vite dev & build performances.
+- Сканирование QR-кодов через камеру устройства
+- Генерация QR-кодов для текста и ссылок
+- Сохранение истории операций в localStorage
+- Локальное хранение данных без отправки на сервер
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Технологии
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
